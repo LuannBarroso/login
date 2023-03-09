@@ -22,6 +22,7 @@ class _LoginPageState extends State<LoginPage> {
                 borderRadius: BorderRadius.circular(50),
                 color: const Color.fromRGBO(248, 154, 238, 1),
               ),
+              child: const Text('data'),
             ),
           ),
         ],
