@@ -28,6 +28,18 @@ class _LoginPageState extends State<LoginPage> {
           const SizedBox(
             height: 16.0,
           ),
+          const Center(
+            child: Text(
+              'Discover Your',
+              style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+            ),
+          ),
+          const Center(
+            child: Text(
+              'Own Dream House',
+              style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+            ),
+          ),
         ],
       ),
     );
