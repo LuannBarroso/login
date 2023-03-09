@@ -22,8 +22,11 @@ class _LoginPageState extends State<LoginPage> {
                 borderRadius: BorderRadius.circular(50),
                 color: const Color.fromRGBO(248, 154, 238, 1),
               ),
-              child: const Text('data'),
+              child: Image.asset('assets/images/png/camada.png'),
             ),
+          ),
+          const SizedBox(
+            height: 16.0,
           ),
         ],
       ),
