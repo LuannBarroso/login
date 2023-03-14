@@ -171,6 +171,27 @@ class LoginPage extends StatelessWidget {
               const SizedBox(
                 height: 36,
               ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 52,
+                    width: 52,
+                    padding: const EdgeInsets.all(6.0),
+                    decoration: const BoxDecoration(
+                      color: Color.fromARGB(255, 238, 230, 230),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Image.asset(
+                      'assets/images/png/google.png',
+                      scale: 70,
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 16,
+                  ),
+                ],
+              ),
             ],
           ),
         ),
